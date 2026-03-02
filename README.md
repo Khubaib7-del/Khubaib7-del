@@ -1,18 +1,93 @@
-# 💫 About Me:
-I'm currently a BS CS student of 4th semester .
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=1e293b&height=250&section=header&text=Hi%20there,%20I'm%20Khubaib!%20👋&fontSize=50&fontColor=f8fafc&animation=fadeIn&fontAlignY=38" alt="Header">
+</div>
 
+<div align="center">
+  <h3>💻 4th Semester BS Computer Science Student | 🚀 Web Dev Enthusiast</h3>
+  <p>Exploring technologies, building solutions, and mastering Computer Science concepts with a focus on DSA and Object-Oriented Programming.</p>
+</div>
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/Khubaib Nazeer) [![Mastodon](https://img.shields.io/badge/-MASTODON-%232B90D9?logo=mastodon&logoColor=white)](https://mastodon.social/@Khubaib Nazeer) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:khubaibnazeer8@gmail.com) 
+<br>
 
-# 💻 Tech Stack:
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![AssemblyScript](https://img.shields.io/badge/assembly%20script-%23000000.svg?style=for-the-badge&logo=assemblyscript&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white) ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=Khubaib7-del&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=Khubaib7-del&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Khubaib7-del&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+<div align="center">
+  <a href="https://github.com/khubaib7-del">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+</div>
+
+<hr style="border: 1px solid #1e293b;">
+
+## 🧑‍💻 About Me
+
+- 🎓 Currently studying **BS Computer Science** (4th Semester).
+- 💡 Passionate about **DSA** and **OOP** primarily in `C++`, as well as `Python` and `JavaScript`.
+- 🌐 Currently diving deep into **Web Development** to build aesthetic yet productive, functional tech.
+- 🤔 Focused on writing clean, efficient, and well-structured code.
 
 ---
-[![](https://visitcount.itsvg.in/api?id=Khubaib7-del&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+## 🛠️ Languages & Tools
+<!-- Tech Stack Icons -->
+<div align="center">
+  <br>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="40" alt="C++ logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" height="40" alt="ms sql logo"  />
+  <br><br>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" alt="vscode logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" height="40" alt="visualstudio logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pycharm/pycharm-original.svg" height="40" alt="pycharm logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" alt="github logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" height="40" alt="jupyter logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" height="40" alt="nasm/assembly logo" title="Assembly/NASM" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/notepadplusplus/notepadplusplus-original.svg" height="40" alt="notepad++ logo"  />
+  <br>
+</div>
+
+---
+
+## 📊 Developer Metrics (Auto-Generated)
+*My GitHub statistics and activity tracking rendered beautifully via GitHub Actions.*
+
+<div align="center">
+  <!-- Main Metrics (Languages, Habits, Calendar) -->
+  <img src="metrics.classic.svg" alt="Khubaib's GitHub Metrics" width="800">
+
+  <br><br>
+
+  <table align="center">
+    <tr>
+      <!-- Achievements & Trophies -->
+      <td align="center" width="50%">
+        <img src="metrics.achievements.svg" alt="GitHub Achievements" width="400">
+      </td>
+      <!-- Contribution Skyline City -->
+      <td align="center" width="50%">
+         <img src="metrics.skyline.svg" alt="GitHub Skyline City" width="400">
+      </td>
+    </tr>
+  </table>
+
+  <!-- Add LeetCode Stats here if the action is uncommented! -->
+  <!-- <img src="metrics.leetcode.svg" alt="LeetCode Stats" width="800"> -->
+</div>
+
+---
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=1e293b&height=100&section=footer" alt="Footer">
+</div>
