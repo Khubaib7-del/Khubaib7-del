@@ -13,7 +13,7 @@ jobs:
       - name: Full Infographic Metrics
         uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.METRICES_TOKEN }}
           user: khubaib7-del
           template: classic
           base: header, activity, community, repositories, metadata
