@@ -30,17 +30,17 @@
 
 <div align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=cpp,py,js,html,css,nodejs,postgresql,npm,vscode,visualstudio,pycharm,github,bash" alt="My Skills" />
+    <img src="https://skillicons.dev/icons?i=cpp,py,js,html,css,vscode,visualstudio,pycharm,github,bash" alt="My Skills" />
   </a>
 </div>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Antigravity-0f172a?style=for-the-badge&logoColor=white" alt="Antigravity" />
-  <img src="https://img.shields.io/badge/opencode-111827?style=for-the-badge&logoColor=white" alt="opencode" />
+  <img src="https://img.shields.io/badge/🛰️%20Antigravity-0f172a?style=for-the-badge&logoColor=white" alt="Antigravity" />
+  <img src="https://img.shields.io/badge/⌨️%20opencode-111827?style=for-the-badge&logoColor=white" alt="opencode" />
+  <img src="https://img.shields.io/badge/🧵%20Google%20Stitch-4285F4?style=for-the-badge&logoColor=white" alt="Google Stitch" />
   <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
   <img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="npm" />
-  <img src="https://img.shields.io/badge/Google%20Stitch-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Stitch" />
 </div>
 
 ---
