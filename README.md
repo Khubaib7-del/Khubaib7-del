@@ -1,10 +1,10 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:0ea5e9&height=250&section=header&text=Khubaib%20Nazeer&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38" alt="Header">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,100:2563eb&height=250&section=header&text=Khubaib%20Nazeer&fontSize=50&fontColor=ffffff&animation=twinkling&fontAlignY=38" alt="Header">
 </div>
 
 <div align="center">
-  <h3>4th Semester BS Computer Science Student | Web Development | AI/ML | Autonomous Agents</h3>
-  <p>Building practical software solutions while strengthening my foundation in data structures, object-oriented programming, and modern engineering workflows.</p>
+  <h3>BS Computer Science Student | Web Development | AI/ML | Autonomous Systems</h3>
+  <p>Focused on building practical software, strengthening computer science fundamentals, and exploring intelligent systems with modern engineering practices.</p>
 </div>
 
 <br>
@@ -19,10 +19,10 @@
 
 ## 🧑‍💻 About Me
 
-- 🎓 I’m a **4th Semester BS Computer Science** student focused on building strong fundamentals and practical projects.
-- 🌐 I’m actively learning **web development** with a growing interest in **Node.js**, **PostgreSQL**, and modern backend workflows.
-- 🤖 I’m also exploring **AI/ML** and **autonomous agents**, with an interest in how they can power useful real-world products.
-- 🧠 I enjoy working with **DSA**, **OOP**, and clean code practices to create reliable and scalable solutions.
+- 🎓 I’m a **BS Computer Science** student focused on building a strong foundation in software engineering and systems thinking.
+- 🌐 I’m actively learning **web development** with an emphasis on **Node.js**, **PostgreSQL**, and scalable backend workflows.
+- 🤖 I’m exploring **AI/ML** and **autonomous systems**, especially how they can support practical and intelligent applications.
+- 🧠 I value **DSA**, **OOP**, and clean code practices to build reliable, maintainable software.
 
 ---
 
@@ -52,5 +52,5 @@
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=100:0ea5e9,0:0f172a&height=120&section=footer" alt="Footer">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=100:2563eb,0:020617&height=120&section=footer&animation=fadeIn" alt="Footer">
 </div>
