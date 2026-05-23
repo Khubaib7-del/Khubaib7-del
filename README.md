@@ -1,10 +1,10 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=00f0ff&height=250&section=header&text=Hi%20there,%20I'm%20Khubaib!%20👋&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38" alt="Header">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:0ea5e9&height=250&section=header&text=Khubaib%20Nazeer&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38" alt="Header">
 </div>
 
 <div align="center">
-  <h3>💻 4th Semester BS Computer Science Student | 🚀 Web Dev Enthusiast</h3>
-  <p>Exploring technologies, building solutions, and mastering Computer Science concepts with a focus on DSA and Object-Oriented Programming.</p>
+  <h3>4th Semester BS Computer Science Student | Web Development | AI/ML | Autonomous Agents</h3>
+  <p>Building practical software solutions while strengthening my foundation in data structures, object-oriented programming, and modern engineering workflows.</p>
 </div>
 
 <br>
@@ -19,10 +19,10 @@
 
 ## 🧑‍💻 About Me
 
-- 🎓 Currently studying **BS Computer Science** (4th Semester).
-- 💡 Passionate about **DSA** and **OOP** primarily in `C++`, as well as `Python` and `JavaScript`.
-- 🌐 Currently diving deep into **Web Development** to build aesthetic yet productive, functional tech.
-- 🤔 Focused on writing clean, efficient, and well-structured code.
+- 🎓 I’m a **4th Semester BS Computer Science** student focused on building strong fundamentals and practical projects.
+- 🌐 I’m actively learning **web development** with a growing interest in **Node.js**, **PostgreSQL**, and modern backend workflows.
+- 🤖 I’m also exploring **AI/ML** and **autonomous agents**, with an interest in how they can power useful real-world products.
+- 🧠 I enjoy working with **DSA**, **OOP**, and clean code practices to create reliable and scalable solutions.
 
 ---
 
@@ -30,8 +30,17 @@
 
 <div align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=cpp,py,js,html,css,mysql,vscode,visualstudio,pycharm,github,bash,npp" alt="My Skills" />
+    <img src="https://skillicons.dev/icons?i=cpp,py,js,html,css,nodejs,postgresql,npm,vscode,visualstudio,pycharm,github,bash" alt="My Skills" />
   </a>
+</div>
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Antigravity-0f172a?style=for-the-badge&logoColor=white" alt="Antigravity" />
+  <img src="https://img.shields.io/badge/opencode-111827?style=for-the-badge&logoColor=white" alt="opencode" />
+  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="npm" />
+  <img src="https://img.shields.io/badge/Google%20Stitch-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Stitch" />
 </div>
 
 ---
@@ -46,5 +55,5 @@
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=00f0ff&height=100&section=footer" alt="Footer">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=100:0ea5e9,0:0f172a&height=120&section=footer" alt="Footer">
 </div>
