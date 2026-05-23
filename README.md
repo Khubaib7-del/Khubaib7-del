@@ -30,17 +30,27 @@
 
 <div align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=cpp,py,js,html,css,vscode,visualstudio,pycharm,github,bash" alt="My Skills" />
+    <img src="https://skillicons.dev/icons?i=cpp,py,js,html,css,nodejs,postgresql,npm,vscode,visualstudio,pycharm,github,bash" alt="My Skills" />
   </a>
 </div>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/🛰️%20Antigravity-0f172a?style=for-the-badge&logoColor=white" alt="Antigravity" />
-  <img src="https://img.shields.io/badge/⌨️%20opencode-111827?style=for-the-badge&logoColor=white" alt="opencode" />
-  <img src="https://img.shields.io/badge/🧵%20Google%20Stitch-4285F4?style=for-the-badge&logoColor=white" alt="Google Stitch" />
-  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="npm" />
+  <table>
+    <tr>
+      <td align="center">
+        <img src="https://api.iconify.design/lucide:rocket.svg?color=%230f172a" width="44" height="44" alt="Antigravity" />
+        <br>Antigravity
+      </td>
+      <td align="center">
+        <img src="https://api.iconify.design/lucide:code-2.svg?color=%23111827" width="44" height="44" alt="opencode" />
+        <br>opencode
+      </td>
+      <td align="center">
+        <img src="https://api.iconify.design/lucide:wand-sparkles.svg?color=%234285F4" width="44" height="44" alt="Google Stitch" />
+        <br>Google Stitch
+      </td>
+    </tr>
+  </table>
 </div>
 
 ---
