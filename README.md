@@ -35,22 +35,9 @@
 </div>
 
 <div align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <img src="https://api.iconify.design/lucide:rocket.svg?color=%230f172a" width="44" height="44" alt="Antigravity" />
-        <br>Antigravity
-      </td>
-      <td align="center">
-        <img src="https://api.iconify.design/lucide:code-2.svg?color=%23111827" width="44" height="44" alt="opencode" />
-        <br>opencode
-      </td>
-      <td align="center">
-        <img src="https://api.iconify.design/lucide:wand-sparkles.svg?color=%234285F4" width="44" height="44" alt="Google Stitch" />
-        <br>Google Stitch
-      </td>
-    </tr>
-  </table>
+  <img src="https://api.iconify.design/tabler:rocket.svg?color=%230f172a" width="44" height="44" alt="Antigravity" title="Antigravity" />
+  <img src="https://api.iconify.design/tabler:code.svg?color=%23111827" width="44" height="44" alt="opencode" title="opencode" />
+  <img src="https://api.iconify.design/tabler:needle-thread.svg?color=%234285F4" width="44" height="44" alt="Google Stitch" title="Google Stitch" />
 </div>
 
 ---
