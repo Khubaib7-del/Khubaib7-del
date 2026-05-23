@@ -35,9 +35,9 @@
 </div>
 
 <div align="center">
-  <img src="https://antigravity.google/assets/image/brand/antigravity_wordmark_horz__full-color-white-text.png" height="44" alt="Google Antigravity" title="Google Antigravity" />
+  <img src="https://antigravity.google/assets/image/brand/antigravity-icon__full-color.png" width="44" height="44" alt="Google Antigravity" title="Google Antigravity" />
   <img src="https://opencode.ai/_build/assets/preview-opencode-wordmark-dark-tZ1Y3VXe.png" height="44" alt="OpenCode" title="OpenCode" />
-  <img src="https://api.iconify.design/tabler:needle-thread.svg?color=%234285F4" width="44" height="44" alt="Google Stitch" title="Google Stitch" />
+  <img src="https://www.gstatic.com/labs-code/stitch/favicon-192x192.png" width="44" height="44" alt="Google Stitch" title="Google Stitch" />
 </div>
 
 ---
