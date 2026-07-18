@@ -65,10 +65,13 @@ I'm a **BS Computer Science student** who learns by building, breaking, and debu
 <img src="https://skillicons.dev/icons?i=html,css,tailwind,bootstrap" alt="frontend"/>
 
 ### Backend & Databases
-<img src="https://skillicons.dev/icons?i=nodejs,npm,postgres" alt="backend"/>
+<img src="https://skillicons.dev/icons?i=express,nodejs,npm,mongodb,postgres" alt="backend"/>
+<br/>
+<img src="https://img.shields.io/badge/Mongoose-880000?style=flat-square&logo=mongoose&logoColor=white&labelColor=020617" alt="mongoose"/>
+<img src="https://img.shields.io/badge/MongoDB%20Atlas-47A248?style=flat-square&logo=mongodb&logoColor=white&labelColor=020617" alt="mongodb atlas"/>
 
 ### Tools & Platforms
-<img src="https://skillicons.dev/icons?i=git,github,vscode,bash,linux" alt="tools"/>
+<img src="https://skillicons.dev/icons?i=git,github,vscode,bash,linux,postman" alt="tools"/>
 <br/><br/>
 <img src="https://antigravity.google/assets/image/brand/antigravity-icon__full-color.png" width="44" height="44" alt="Google Antigravity" title="Google Antigravity"/>&nbsp;&nbsp;
 <img src="https://opencode.ai/_build/assets/preview-opencode-wordmark-dark-tZ1Y3VXe.png" height="44" alt="OpenCode" title="OpenCode"/>&nbsp;&nbsp;
