@@ -59,7 +59,7 @@ I'm a **BS Computer Science student** who learns by building, breaking, and debu
 ### Languages
 <img src="https://skillicons.dev/icons?i=c,cpp,py,js" alt="languages"/>
 <br/>
-<img src="https://img.shields.io/badge/x86%20Assembly-6366f1?style=flat-square&labelColor=020617" alt="x86 assembly"/>
+<img src="assets/asm-icon.png" width="44" height="44" alt="x86 Assembly" title="x86 Assembly"/>
 
 ### Frontend
 <img src="https://skillicons.dev/icons?i=html,css,tailwind,bootstrap" alt="frontend"/>
