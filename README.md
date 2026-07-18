@@ -67,8 +67,8 @@ I'm a **BS Computer Science student** who learns by building, breaking, and debu
 ### Backend & Databases
 <img src="https://skillicons.dev/icons?i=express,nodejs,npm,mongodb,postgres" alt="backend"/>
 <br/>
-<img src="https://img.shields.io/badge/Mongoose-880000?style=flat-square&logo=mongoose&logoColor=white&labelColor=020617" alt="mongoose"/>
-<img src="https://img.shields.io/badge/MongoDB%20Atlas-47A248?style=flat-square&logo=mongodb&logoColor=white&labelColor=020617" alt="mongodb atlas"/>
+<img src="https://img.shields.io/badge/Mongoose-800?style=for-the-badge&logo=mongoose&logoColor=white" alt="mongoose"/>
+<img src="https://img.shields.io/badge/MongoDB%20Atlas-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="mongodb atlas"/>
 
 ### Tools & Platforms
 <img src="https://skillicons.dev/icons?i=git,github,vscode,bash,linux,postman" alt="tools"/>
