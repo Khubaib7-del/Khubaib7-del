@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Khubaib Nazeer · GitHub activity</title>
+<meta name="description" content="Interactive view of Khubaib Nazeer's GitHub activity: weekly contributions, the repos and pull requests behind them, and languages.">
+<style>
+:root{--bg:#0d0f17;--panel:#141724;--line:#2a2f47;--ink:#f5f6fb;--muted:#a9aecb;--faint:#6b7194;--sky:#38bdf8;--violet:#a78bfa;--mint:#34d399;--pink:#f472b6}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 Inter,"Segoe UI",Helvetica,Arial,sans-serif}
+.wrap{max-width:980px;margin:0 auto;padding:56px 22px 80px}
+a{color:var(--sky);text-decoration:none}a:hover{text-decoration:underline}
+.eyebrow{font:700 11px/1 "JetBrains Mono",Consolas,monospace;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+h1{font-size:clamp(34px,6vw,56px);letter-spacing:-.03em;margin:.2em 0 .1em}
+.sub{font-family:"JetBrains Mono",Consolas,monospace;color:var(--muted)}
+.links{display:flex;gap:10px;margin-top:18px;flex-wrap:wrap}
+.links a{border:1px solid var(--line);background:var(--panel);color:var(--ink);padding:8px 14px;border-radius:999px;font-size:13px}
+.card{background:var(--bg);border:1px solid var(--line);border-radius:18px;padding:26px;margin-top:22px;opacity:0;transform:translateY(24px);transition:opacity .7s,transform .7s cubic-bezier(.2,.8,.2,1)}
+.card.in{opacity:1;transform:none}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-top:16px}
+.tile{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px}
+.tile b{display:block;font-size:24px;margin-top:4px}.tile span{color:var(--muted);font-size:12.5px;font-weight:600}
+svg text{font-family:"JetBrains Mono",Consolas,monospace}
+#tip{position:fixed;pointer-events:none;z-index:9;max-width:320px;background:#1b1f31;border:1px solid var(--line);border-radius:12px;padding:12px 14px;font-size:13px;box-shadow:0 12px 30px #0008;opacity:0;transition:opacity .12s}
+#tip h4{margin:0 0 6px;font-size:13px}#tip .row{display:flex;justify-content:space-between;gap:16px;color:var(--muted)}
+#tip .row b{color:var(--ink)}#tip .pr{color:var(--violet);margin-top:4px}
+.legend{display:flex;gap:18px;color:var(--muted);font-size:12.5px;margin-top:8px;flex-wrap:wrap}
+.dot{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:6px;vertical-align:-1px}
+.langs{display:grid;grid-template-columns:240px 1fr;gap:26px;align-items:center}
+@media(max-width:640px){.langs{grid-template-columns:1fr}}
+.lrow{display:grid;grid-template-columns:110px 1fr 64px;gap:12px;align-items:center;padding:6px 0;cursor:default}
+.bar{height:6px;background:var(--line);border-radius:3px;overflow:hidden}.bar i{display:block;height:100%;border-radius:3px;width:0;transition:width 1s cubic-bezier(.2,.8,.2,1)}
+.lrow.dim{opacity:.35}
+.grow{transform-box:fill-box;transform-origin:bottom;transform:scaleY(0);transition:transform .8s cubic-bezier(.2,.8,.2,1)}.card.in .grow{transform:none}
+@media (prefers-reduced-motion:reduce){.grow{transform:none;transition:none}}
+.prs{max-height:420px;overflow:auto;margin-top:12px;border-top:1px solid var(--line)}
+.pritem{display:grid;grid-template-columns:92px 1fr auto;gap:12px;padding:10px 0;border-bottom:1px solid var(--line);font-size:13.5px}
+.pritem .d{color:var(--faint);font-family:"JetBrains Mono",Consolas,monospace;font-size:12px}
+.tag{font-size:11px;padding:2px 8px;border-radius:999px;border:1px solid var(--line);color:var(--muted)}
+.tag.m{color:var(--mint);border-color:#1f5a46}
+footer{color:var(--faint);font-size:12.5px;margin-top:30px}
+@media (prefers-reduced-motion:reduce){.card{opacity:1;transform:none;transition:none}.bar i{transition:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="eyebrow">GitHub activity</div>
+  <h1>Khubaib Nazeer</h1>
+  <div class="sub">Software developer · learning AI engineering</div>
+  <div class="links">
+    <a href="https://github.com/Khubaib7-del">GitHub</a>
+    <a href="https://khubaib-nazeer-protfolio.vercel.app/">Portfolio</a>
+    <a href="https://www.linkedin.com/in/khubaib-nazeer-039b47384/">LinkedIn</a>
+    <a href="https://x.com/KhubaibNazeer_">X</a>
+  </div>
+
+  <section class="card"><div class="eyebrow">Last 12 months</div><div class="tiles" id="tiles"></div></section>
+
+  <section class="card">
+    <div class="eyebrow">Weekly activity · hover a week</div>
+    <svg id="weekly" viewBox="0 0 900 300" width="100%" role="img" aria-label="Weekly contributions"></svg>
+    <div class="legend"><span><i class="dot" style="background:var(--sky)"></i>contributions</span><span><i class="dot" style="background:var(--violet)"></i>pull requests</span></div>
+  </section>
+
+  <section class="card">
+    <div class="eyebrow">Every day · hover a square</div>
+    <svg id="heat" viewBox="0 0 900 150" width="100%" role="img" aria-label="Daily contributions"></svg>
+  </section>
+
+  <section class="card">
+    <div class="eyebrow">Languages · by code size</div>
+    <div class="langs"><svg id="donut" viewBox="0 0 240 240" width="240" height="240"></svg><div id="lrows"></div></div>
+  </section>
+
+  <section class="card">
+    <div class="eyebrow">Pull requests</div>
+    <div class="prs" id="prs"></div>
+  </section>
+
+  <footer id="foot"></footer>
+</div>
+<div id="tip"></div>
+<script>
+const C={sky:"#38bdf8",violet:"#a78bfa",mint:"#34d399",line:"#2a2f47",muted:"#a9aecb",faint:"#6b7194",ink:"#f5f6fb",bg:"#0d0f17"};
+const LANG={Rust:"#38bdf8",TypeScript:"#a78bfa",JavaScript:"#facc15",Python:"#34d399",Kotlin:"#f472b6",Assembly:"#e2e8f0","C++":"#fb7185",C:"#94a3b8",PLpgSQL:"#5eead4",Other:"#475069"};
+const NS="http://www.w3.org/2000/svg",tip=document.getElementById("tip");
+const el=(t,a={},p)=>{const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);p&&p.appendChild(e);return e};
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const fmt=d=>new Date(d+"T00:00:00").toLocaleDateString("en",{month:"short",day:"numeric"});
+function show(html,e){tip.innerHTML=html;tip.style.opacity=1;move(e)}
+function move(e){const x=Math.min(e.clientX+16,innerWidth-tip.offsetWidth-10),y=Math.min(e.clientY+16,innerHeight-tip.offsetHeight-10);tip.style.left=x+"px";tip.style.top=y+"px"}
+function hide(){tip.style.opacity=0}
+
+fetch("data.json").then(r=>r.json()).then(d=>{
+  const x=d.derived;
+  const tiles=[["Contributions",x.total],["Commits",x.commit_total],["Pull requests",d.pr_total],["Merged PRs",x.merged],["Repos committed to",x.repos_committed],["Active days",x.active],["Current streak",x.current+"d"],["Longest streak",x.longest+"d"]];
+  document.getElementById("tiles").innerHTML=tiles.map(([k,v])=>`<div class="tile"><span>${k}</span><b>${typeof v=="number"?v.toLocaleString():v}</b></div>`).join("");
+
+  // weekly
+  const W=d.weeks.slice(-53),svg=document.getElementById("weekly"),L=46,R=14,T=16,B=60,pw=900-L-R,ph=300-T-B;
+  const peak=Math.max(1,...W.map(w=>w.total)),step=Math.pow(10,String(peak).length-1),nice=Math.ceil(peak/step)*step;
+  for(let k=0;k<=4;k++){const y=T+ph*k/4;el("line",{x1:L,x2:900-R,y1:y,y2:y,stroke:C.line,"stroke-dasharray":"2 6"},svg);el("text",{x:L-8,y:y+4,"text-anchor":"end",fill:C.muted,"font-size":11},svg).textContent=Math.round(nice*(1-k/4))}
+  const bw=pw/W.length;
+  W.forEach((w,i)=>{
+    const h=ph*w.total/nice,x0=L+i*bw;
+    const g=el("g",{},svg);
+    el("rect",{x:x0,y:T,width:bw,height:ph+44,fill:"transparent"},g);
+    const bar=el("rect",{x:x0+bw*.18,y:T+ph-h,width:bw*.64,height:Math.max(h,0),rx:2,fill:C.sky,opacity:.9,class:"grow"},g);
+    bar.style.transitionDelay=`${i*12}ms`;
+    if(w.prs.length)el("rect",{x:x0+bw/2-4,y:T+ph+18,width:8,height:8,fill:C.violet,transform:`rotate(45 ${x0+bw/2} ${T+ph+22})`},g);
+    const m=w.start.slice(5,7);if(i&&m!==W[i-1].start.slice(5,7)&&i<W.length-2)el("text",{x:x0,y:300-12,fill:C.muted,"font-size":11},svg).textContent=new Date(w.start+"T00:00:00").toLocaleDateString("en",{month:"short"}).toUpperCase();
+    g.addEventListener("mouseenter",e=>{bar.setAttribute("fill",C.ink);
+      const end=new Date(new Date(w.start+"T00:00:00").getTime()+6*864e5).toISOString().slice(0,10);
+      const repos=Object.entries(w.commits).slice(0,6).map(([r,n])=>`<div class="row"><span>${esc(r)}</span><b>${n} commit${n>1?"s":""}</b></div>`).join("");
+      const cut=s=>s.length>64?s.slice(0,62)+"…":s;const prs=w.prs.slice(0,4).map(p=>`<div class="pr">◆ ${esc(p.repo)}: ${esc(cut(p.title))}</div>`).join("")+(w.prs.length>4?`<div class="pr">+${w.prs.length-4} more PRs</div>`:"");
+      show(`<h4>${fmt(w.start)} – ${fmt(end)} · ${w.total} contributions</h4>${repos||'<div class="row"><span>No public commits</span></div>'}${prs}`,e)});
+    g.addEventListener("mousemove",move);g.addEventListener("mouseleave",()=>{bar.setAttribute("fill",C.sky);hide()});
+  });
+  el("text",{x:L-8,y:T+ph+26,"text-anchor":"end",fill:C.violet,"font-size":10.5},svg).textContent="PRs";
+
+  // heatmap
+  const H=document.getElementById("heat"),cell=15,days=d.days,maxc=Math.max(1,...days.map(a=>a[1]));
+  const ramp=["#1f2438","#1e3a8a","#2563eb","#38bdf8","#a5f3fc"],lv=c=>!c?0:c/maxc<.1?1:c/maxc<.3?2:c/maxc<.6?3:4;
+  days.forEach(([day,c],i)=>{const r=el("rect",{x:20+Math.floor(i/7)*cell*1.08,y:10+(i%7)*cell*1.08+4,width:cell-2,height:cell-2,rx:3,fill:ramp[lv(c)]},H);
+    r.addEventListener("mouseenter",e=>show(`<h4>${fmt(day)}</h4><div class="row"><span>contributions</span><b>${c}</b></div>`,e));r.addEventListener("mousemove",move);r.addEventListener("mouseleave",hide)});
+
+  // languages
+  const langs=Object.entries(d.languages),total=langs.reduce((a,[,v])=>a+v,0),top=langs.slice(0,7),rest=langs.slice(7).reduce((a,[,v])=>a+v,0);
+  if(rest)top.push(["Other",rest]);
+  const D=document.getElementById("donut"),rows=document.getElementById("lrows"),r0=86,circ=2*Math.PI*r0;let acc=0;const arcs=[];
+  const center=el("text",{x:120,y:118,"text-anchor":"middle",fill:C.ink,"font-size":30,"font-weight":800},D),cap=el("text",{x:120,y:142,"text-anchor":"middle",fill:C.muted,"font-size":12},D);
+  const setC=(n,v)=>{center.textContent=(v/total*100).toFixed(1)+"%";cap.textContent=n};
+  top.forEach(([n,v],i)=>{const f=v/total,a=el("circle",{cx:120,cy:120,r:r0,fill:"none",stroke:LANG[n]||"#64748b","stroke-width":28,"stroke-dasharray":`${Math.max(.5,f*circ-3)} ${circ}`,"stroke-dashoffset":-acc*circ,transform:"rotate(-90 120 120)"},D);acc+=f;arcs.push(a);
+    const row=document.createElement("div");row.className="lrow";row.innerHTML=`<span><i class="dot" style="background:${LANG[n]||"#64748b"}"></i>${n}</span><div class="bar"><i style="background:${LANG[n]||"#64748b"}" data-w="${(f/(top[0][1]/total)*100).toFixed(1)}"></i></div><b style="text-align:right">${(f*100).toFixed(1)}%</b>`;rows.appendChild(row);
+    const on=()=>{setC(n,v);rows.querySelectorAll(".lrow").forEach(x=>x.classList.toggle("dim",x!==row));arcs.forEach(x=>x.style.opacity=x===a?1:.25)},off=()=>{setC(top[0][0],top[0][1]);rows.querySelectorAll(".lrow").forEach(x=>x.classList.remove("dim"));arcs.forEach(x=>x.style.opacity=1)};
+    [a,row].forEach(t=>{t.addEventListener("mouseenter",on);t.addEventListener("mouseleave",off)})});
+  setC(top[0][0],top[0][1]);
+
+  // PR list
+  const all=d.weeks.flatMap(w=>w.prs).sort((a,b)=>b.date.localeCompare(a.date));
+  document.getElementById("prs").innerHTML=all.map(p=>`<div class="pritem"><span class="d">${p.date}</span><a href="${esc(p.url)}">${esc(p.repo)} · ${esc(p.title)}</a><span class="tag ${p.merged?"m":""}">${p.merged?"merged":"open/closed"}</span></div>`).join("");
+  document.getElementById("foot").textContent=`Updated ${d.generated.replace("T"," ")} UTC · public activity only`;
+
+  // reveal on scroll
+  const io=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;const c=e.target;c.classList.add("in");
+    c.querySelectorAll(".bar i").forEach(b=>b.style.width=b.dataset.w+"%");io.unobserve(c)}),{threshold:.15});
+  document.querySelectorAll(".card").forEach(c=>io.observe(c));
+});
+</script>
+</body>
+</html>
