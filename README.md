@@ -1,86 +1,51 @@
 <div align="center">
 
-<a href="https://khubaib-nazeer-protfolio.vercel.app/">
-  <img src="assets/cards/header.svg" width="100%" alt="Khubaib Nazeer — Built from curiosity"/>
-</a>
+<a href="https://khubaib-nazeer-protfolio.vercel.app/"><img src="assets/cards/header.svg" width="100%" alt="Khubaib Nazeer — software developer, learning AI engineering"/></a>
 
-<br/><br/>
-
-<a href="https://khubaib-nazeer-protfolio.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-ff5a1f?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
-<a href="https://www.linkedin.com/in/khubaib-nazeer-039b47384/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-<a href="mailto:khubaibnazeer8@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+<a href="https://khubaib-nazeer-protfolio.vercel.app/" title="Portfolio"><img src="assets/cards/social-portfolio.svg" width="44" alt="Portfolio"/></a>&nbsp;
+<a href="https://www.linkedin.com/in/khubaib-nazeer-039b47384/" title="LinkedIn"><img src="assets/cards/social-linkedin.svg" width="44" alt="LinkedIn"/></a>&nbsp;
+<a href="https://x.com/KhubaibNazeer_" title="X · @KhubaibNazeer_"><img src="assets/cards/social-x.svg" width="44" alt="X"/></a>&nbsp;
+<a href="mailto:khubaibnazeer8@gmail.com" title="Email"><img src="assets/cards/social-email.svg" width="44" alt="Email"/></a>
 
 </div>
 
-## About
+### About
 
-I'm a BS Computer Science student at FAST NUCES Lahore who learns by building, breaking, and debugging things until they make sense. I ship projects as usable products, on strong fundamentals: data structures, algorithms, OOP, and clean architecture.
+I build software end to end, and I build it with AI agents as part of the team. Right now that's **Tern**, a desktop app for deep research and study written in Rust, and **Selvard**, a privacy-first Android security shield where every check runs on the device.
 
-- **Full-stack:** React, Node.js, Express, PostgreSQL and MongoDB, from schema to UI
-- **AI / ML:** computer vision with PyTorch and YOLOv8, served through FastAPI
-- **Systems:** C, C++ and x86 Assembly, plus developer tooling in Rust
-- **Open to:** internships, open-source collaboration, and freelance builds
+Before those came **Thruline**, a shared memory layer for AI coding agents, **CogniVision**, a computer-vision system for classroom attention, and **GitAtlas**, which turns any repo into a 3D world. I like going underneath too, so there's C, C++ and x86 Assembly in here as well.
 
-## Toolkit
+- **I make:** web apps, desktop apps and Android apps, plus tooling for AI coding agents
+- **I care about:** local-first, privacy-respecting software that's honest about its limits
+- **I'm learning:** AI engineering in depth, from RAG and agents to evals
+- **Open to:** internships, collaboration, and freelance websites and apps
 
-<table align="center">
-<tr><td align="right"><sub><b>LANGUAGES</b></sub></td><td>
-<img src="https://skillicons.dev/icons?i=c,cpp,py,js,ts,rust" height="40" alt="C, C++, Python, JavaScript, TypeScript, Rust"/>
-<img src="assets/tools/assembly.svg" height="40" alt="x86 Assembly" title="x86 Assembly"/>
-</td></tr>
-<tr><td align="right"><sub><b>FRONTEND</b></sub></td><td>
-<img src="https://skillicons.dev/icons?i=html,css,tailwind,bootstrap,react" height="40" alt="HTML, CSS, Tailwind, Bootstrap, React"/>
-</td></tr>
-<tr><td align="right"><sub><b>BACKEND & DATA</b></sub></td><td>
-<img src="https://skillicons.dev/icons?i=nodejs,express,postgres,mongodb" height="40" alt="Node.js, Express, PostgreSQL, MongoDB"/>
-<img src="assets/tools/mongoose.svg" height="40" alt="Mongoose" title="Mongoose"/>
-<img src="assets/tools/mongodb-atlas.svg" height="40" alt="MongoDB Atlas" title="MongoDB Atlas"/>
-</td></tr>
-<tr><td align="right"><sub><b>TOOLS</b></sub></td><td>
-<img src="https://skillicons.dev/icons?i=git,github,vscode,pycharm,postman" height="40" alt="Git, GitHub, VS Code, PyCharm, Postman"/>
-</td></tr>
-<tr><td align="right"><sub><b>AI AGENTS</b></sub></td><td>
-<img src="assets/tools/claude-code.svg" height="40" alt="Claude Code" title="Claude Code"/>
-<img src="assets/tools/codex.svg" height="40" alt="Codex" title="Codex"/>
-<img src="assets/tools/hark-pro.svg" height="40" alt="Hark Pro" title="Hark Pro"/>
-</td></tr>
-</table>
+### Toolkit
 
-## Featured projects
+<img src="assets/cards/toolkit.svg" width="100%" alt="Toolkit: C, C++, Python, JavaScript, TypeScript, Rust, x86 Assembly, HTML, CSS, Tailwind, Bootstrap, React, Node.js, Express, PostgreSQL, MongoDB, Mongoose, MongoDB Atlas, Git, GitHub, VS Code, PyCharm, Postman, Claude Code, Codex, Hark Pro"/>
 
-| Project | What it is | Stack | Links |
-|:--|:--|:--|:--|
-| **GitAtlas** | Turns any GitHub repo into a 3D world: city mode, force-directed graphs, and a commit-history constellation | React · Three.js · TypeScript | [Live](https://git-atlas-nu.vercel.app) · [Code](https://github.com/Khubaib7-del/GitAtlas) |
-| **Thruline** | Companion layer for AI coding agents: decision logs, review queue, context health, cross-agent memory over MCP | Rust · TypeScript · MCP | [Docs](https://thruline-steel.vercel.app) · [Code](https://github.com/Khubaib7-del/thruline) |
-| **CogniVision** | Live student attention and cheating-behaviour detection, EfficientNet-B2 + YOLOv8, **90.1% val. accuracy** | Python · PyTorch · YOLOv8 · FastAPI | [Code](https://github.com/Khubaib7-del/Cognivision) |
-| **Bite Balance** | Full-stack meal planning and nutrition tracking with JWT auth and a PostgreSQL API | React · Node · PostgreSQL | [Code](https://github.com/Khubaib7-del/Bite-Balance) |
-| **AlgoViz** | Search (DFS, BFS, A\*, UCS, IDS) and game-theory (Minimax, Alpha-Beta) visualizer on an interactive grid | HTML · CSS · JS | [Live](https://khubaib7-del.github.io/ALGORITHM-VISUALIZER/) · [Code](https://github.com/Khubaib7-del/ALGORITHM-VISUALIZER) |
-| **OS Scheduler Visualizer** | FCFS, SJF, SRTF and Round Robin with live Gantt charts and per-process stats | HTML · CSS · JS · SVG | [Live](https://khubaib7-del.github.io/OS-Scheduler-Visualizer/) · [Code](https://github.com/Khubaib7-del/OS-Scheduler-Visualizer) |
-| **Echo Drift** | WebGL puzzle platformer where your recorded past becomes the hazard | React · TypeScript · PixiJS | [Play](https://echo-drift.vercel.app) · [Code](https://github.com/Khubaib7-del/Echo-Drift) |
-| **Goblin Grit** | Pixel-art platformer with jumping and slash combat | Browser game | [Play](https://goblin-grit.vercel.app) · [Code](https://github.com/Khubaib7-del/Goblin-Grit) |
-| **POP Rush** | Balloon-popping arcade game written entirely in x86 Assembly, with a 3-level Time Attack mode | x86 Assembly | [Code](https://github.com/Khubaib7-del/POP-RUSH) |
-
-## GitHub at a glance
+### Featured projects
 
 <div align="center">
-
-<p><img src="assets/cards/stats.svg" width="100%" alt="GitHub stats"/></p>
-<p><img src="assets/cards/languages.svg" width="100%" alt="Languages"/></p>
-<p><img src="assets/cards/activity.svg" width="100%" alt="Weekly contribution activity"/></p>
-
-<sub>Drawn by this repo's own workflow and refreshed daily, so nothing here depends on an outside stats service.</sub>
-
+<a href="https://github.com/Khubaib7-del/GitAtlas"><img src="assets/cards/project-gitatlas.svg" width="49%" alt="GitAtlas"/></a>
+<a href="https://github.com/Khubaib7-del/thruline"><img src="assets/cards/project-thruline.svg" width="49%" alt="Thruline"/></a>
+<a href="https://github.com/Khubaib7-del/Selvard"><img src="assets/cards/project-selvard.svg" width="49%" alt="Selvard"/></a>
+<a href="https://github.com/Khubaib7-del/Cognivision"><img src="assets/cards/project-cognivision.svg" width="49%" alt="CogniVision"/></a>
+<a href="https://github.com/Khubaib7-del/Bite-Balance"><img src="assets/cards/project-bite-balance.svg" width="49%" alt="Bite Balance"/></a>
+<a href="https://github.com/Khubaib7-del/POP-RUSH"><img src="assets/cards/project-pop-rush.svg" width="49%" alt="POP Rush"/></a>
 </div>
 
-## Now
-
-```yaml
-building:  developer tools and AI-agent workflows (Rust, MCP), full-stack apps
-learning:  OS, systems programming, deeper DSA, applied ML
-principle: "Never claim a skill until it's genuinely learned."
-```
+### GitHub at a glance
 
 <div align="center">
-<br/>
-<sub><i>Build it, break it, debug it — until it makes sense.</i></sub>
+<a href="https://khubaib7-del.github.io/Khubaib7-del/"><img src="assets/cards/overview.svg" width="100%" alt="GitHub overview"/></a>
+<a href="https://khubaib7-del.github.io/Khubaib7-del/"><img src="assets/cards/calendar.svg" width="100%" alt="3D contribution calendar"/></a>
+<a href="https://khubaib7-del.github.io/Khubaib7-del/"><img src="assets/cards/activity.svg" width="100%" alt="Weekly activity"/></a>
+<a href="https://khubaib7-del.github.io/Khubaib7-del/"><img src="assets/cards/languages.svg" width="100%" alt="Languages by code size"/></a>
+
+<sub><a href="https://khubaib7-del.github.io/Khubaib7-del/">Open the interactive version</a> to hover any week and see the repos and pull requests behind it.</sub>
 </div>
+
+### Now
+
+<img src="assets/cards/now.svg" width="100%" alt="Now: building Tern, shipping Selvard, learning AI engineering, open to internships and freelance work"/>
